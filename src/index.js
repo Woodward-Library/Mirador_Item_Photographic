@@ -26,16 +26,17 @@ Mirador.viewer({
       { key: 'scroll',  },
       { key: 'gallery' },
     ],
+    panels: { // Configure which panels are visible in WindowSideBarButtons
+      info: true,
+      attribution: true,
+      canvas: false,
+      annotations: false,
+      search: false,
+      layers: false,
+    },
   },
 
-  panels: { // Configure which panels are visible in WindowSideBarButtons
-    info: true,
-    attribution: true,
-    canvas: false,
-    annotations: false,
-    search: false,
-    layers: false,
-  },
+
 
   thumbnails: {
     preferredFormats: ['jpg', 'png', 'webp', 'tif'],
