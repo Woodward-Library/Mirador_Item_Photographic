@@ -51,7 +51,7 @@ Mirador.viewer({
 
   windows: [
     {
-      "loadedManifest": "https://iiif.library.ubc.ca/presentation/cdm.macmillan.1-0349199/manifest",
+      "loadedManifest": "https://iiif.lib.harvard.edu/manifests/ids:47955441",
       "canvasIndex": 0,
       sideBarOpen: false,
      view:'single',
